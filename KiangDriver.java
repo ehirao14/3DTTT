@@ -1,0 +1,8 @@
+public class KiangDriver
+{
+  public static void main(String[] args)
+  {
+    FortheGloryofKiang game = new FortheGloryofKiang();
+    game.play();
+  }
+}
