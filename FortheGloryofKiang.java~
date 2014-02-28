@@ -104,33 +104,52 @@ public class FortheGloryofKiang
       System.out.println("");// print new line so we can start a new column
     }
   }
-
+  
   public void player1()
   {
-   System.out.println("Enter the number you wish to fill.");
-   int num1 = kb.nextInt(); 
+    System.out.println("Enter the number you wish to fill.");
+    int num1 = kb.nextInt(); 
+    check();
+    if (check==true)
+    {
+      replace1();
+    }
+    else player1();
   }
   public void player2()
   {
     System.out.println("Enter the number you wish to fill.");
     int num2 = kb.nextInt();
+    check();
+    if (check==true)
+    {
+      replace2();
+    }
+    else player2();
   }
   public void player3()
   {
     System.out.println("Enter the number you wish to fill.");
     int num3 = kb.nextInt();
+    check();
+    if (check==true)
+    {
+      replace3();
+    }
+    else player3();
   }
-  public void check1()
+  public boolean check()
   {
     
   }
-  public void check2()
+  public void replace1()
   {
-    
   }
-  public void check3()
+  public void replace2
   {
-    
+  }
+  public void replace3()
+  {
   }
   public void playGame()
   {

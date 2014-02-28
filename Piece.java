@@ -2,13 +2,13 @@ public class Piece
 {
   private String name;
   private int value;
-  private int diagonal;
+  private int cube;
   
-  public Piece(String newName, int newValue, int newDiagonal)
+  public Piece(String newName, int newValue, int newCube)
   {
     name = newName;
     value = newValue;
-    diagonal = newDiagonal;
+    cube = newCube;
   }
   
   public String getName()
@@ -20,8 +20,14 @@ public class Piece
   {
     return value;
   }
-  public int getDiagonal()
+  public int getCube()
   {
-    return diagonal;
+    return cube;
   }
+  
+  public void setName(String str)
+  {
+    name = str;
+  }
+  
 }
