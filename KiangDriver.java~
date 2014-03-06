@@ -1,4 +1,4 @@
-public class KiangDriver()
+public class KiangDriver
 {
   public static void main(String[] args)
   {

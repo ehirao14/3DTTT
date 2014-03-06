@@ -4,6 +4,14 @@ public class FortheGloryofKiang
 {
   Scanner kb = new Scanner(System.in); 
   private static Piece[][] kiangArray = new Piece [4][16];
+  private int turn = 1;
+  String symbol1 = "|X|"; //makes 3 ints to be placemakers for the games for 3 players
+  String symbol2 = "|O|";
+  String symbol3 = "|+|";
+  private boolean hasWon = false;
+  public int num1cube = 0;
+  public int num2cube = 0;
+  public int num3cube = 0;
   {
     kiangArray[0][0] = new Piece ("|01|", 1, 16);
     kiangArray[0][1] = new Piece ("|02|", 2, 3);
@@ -73,9 +81,6 @@ public class FortheGloryofKiang
   
   public void play()
   {
-    String symbol1 = "X"; //makes 3 ints to be placemakers for the games for 3 players
-    String symbol2 = "O";
-    String symbol3 = "+";
     
     boolean gameOver = false;
     int current; //makes sure that only one player can make a move
@@ -105,21 +110,34 @@ public class FortheGloryofKiang
     }
   }
   
-  public void player1()
+  public void kiangplayer1()
   {
-    System.out.println("Enter the number you wish to fill.");
-    int num1 = kb.nextInt(); 
-    check();
-    if (check==true)
+    while (hasWon == false)
     {
-      replace1();
+      System.out.println("Player " + turn + ", enter the number you wish to fill.");
+      int answer = kb.nextInt();
+      check();
+      if (check == true)
+      {
+        replacePiece(turn, answer);
+        turn++;
+        checkBattle(turn, answer);
+        playGame();
+      }
+      else
+      {
+        turn ++;
+        playGame();;
+      }
     }
-    else player1();
+    System.out.println("Someone has won!");
   }
-  public void player2()
+  
+  
+  public void kiangplayer2()
   {
     System.out.println("Enter the number you wish to fill.");
-    int num2 = kb.nextInt();
+    int answer = kb.nextInt();
     check();
     if (check==true)
     {
@@ -127,7 +145,7 @@ public class FortheGloryofKiang
     }
     else player2();
   }
-  public void player3()
+  public void kiangplayer3()
   {
     System.out.println("Enter the number you wish to fill.");
     int num3 = kb.nextInt();
@@ -145,7 +163,7 @@ public class FortheGloryofKiang
   public void replace1()
   {
   }
-  public void replace2
+  public void replace2()
   {
   }
   public void replace3()
@@ -154,16 +172,52 @@ public class FortheGloryofKiang
   public void playGame()
   {
     display(kiangArray);
-    int turns;
-    turns=turns+1;
-    if (turns%3==0)
+    if (turn > 3) turn = 1;
+    if (turns==1)
     {
       player1();
     }
-    else if (turns%3==1)
+    else if (turns==2)
     {
       player2();
     }
     else player3();
   }
 }
+
+public void checkBattle(int turn, int answer)
+{
+  for (int i = 0; i < kiangArray.length; i++)
+  {
+    for (int j = 0; j < kiangArray.length; j++)
+    {
+      if (kiangArray[i][j].getValue() == answer)
+      {
+        if (turn == 1)
+        {
+          if (kiangArray[i+1][j].getName == symbol1)
+          {
+            
+          }
+        }
+      }
+    }
+  }
+}
+private void replacePiece (int turn, int answer)
+{
+  public int sum1 = 0;
+  public int sum2 = 0;
+  public int sum3 = 0;
+  for (int i = 0; i < kiangArray.length; i++)
+  {
+    for (int j = 0; j < kiangArray.length; j++)
+    {
+      if (kiangArray[i][j].getValue() == answer)
+      {
+        if (turn == 1)
+        {
+          kiangArray[i][j].setName("|X|");
+          num1cube = kiangArray[i][j].getCube()
+            else 
+            
