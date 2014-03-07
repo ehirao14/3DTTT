@@ -301,4 +301,199 @@ public class FortheGloryofKiang
     {
       hasWon = true;
     }
+    else if (kiangArray[0][9].getName().equals(symbol) && kiangArray[1][9].getName().equals(symbol) && kiangArray[2][9].getName().equals(symbol) && kiangArray[3][9].getname().equals(symbol)) //checks 10th column
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][10].getName().equals(symbol) && kiangArray[1][10].getName().equals(symbol) && kiangArray[2][10].getName().equals(symbol) && kiangArray[3][10].getname().equals(symbol)) //checks 11th column
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][11].getName().equals(symbol) && kiangArray[1][11].getName().equals(symbol) && kiangArray[2][11].getName().equals(symbol) && kiangArray[3][11].getname().equals(symbol)) //checks 12th column
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][12].getName().equals(symbol) && kiangArray[1][12].getName().equals(symbol) && kiangArray[2][12].getName().equals(symbol) && kiangArray[3][12].getname().equals(symbol)) //checks 13th column
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][13].getName().equals(symbol) && kiangArray[1][13].getName().equals(symbol) && kiangArray[2][13].getName().equals(symbol) && kiangArray[3][13].getname().equals(symbol)) //checks 14th column
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][14].getName().equals(symbol) && kiangArray[1][14].getName().equals(symbol) && kiangArray[2][14].getName().equals(symbol) && kiangArray[3][14].getname().equals(symbol)) //checks 15th column
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][15].getName().equals(symbol) && kiangArray[1][15].getName().equals(symbol) && kiangArray[2][15].getName().equals(symbol) && kiangArray[3][15].getname().equals(symbol)) //checks 16th column
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][0].getName().equals(symbol) && kiangArray[1][1].getName().equals(symbol) && kiangArray[2][2].getName().equals(symbol) && kiangArray[3][3].getname().equals(symbol)) //diagonal from 1-16
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][3].getName().equals(symbol) && kiangArray[1][2].getName().equals(symbol) && kiangArray[2][1].getName().equals(symbol) && kiangArray[3][0].getname().equals(symbol)) //diagonal from 4-13
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][4].getName().equals(symbol) && kiangArray[1][5].getName().equals(symbol) && kiangArray[2][6].getName().equals(symbol) && kiangArray[3][7].getname().equals(symbol)) //diagonal from 17-32
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][7].getName().equals(symbol) && kiangArray[1][6].getName().equals(symbol) && kiangArray[2][5].getName().equals(symbol) && kiangArray[3][4].getname().equals(symbol)) //diagonal from 20-29
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][8].getName().equals(symbol) && kiangArray[1][9].getName().equals(symbol) && kiangArray[2][10].getName().equals(symbol) && kiangArray[3][11].getname().equals(symbol)) //diagonal from 33-48
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][11].getName().equals(symbol) && kiangArray[1][10].getName().equals(symbol) && kiangArray[2][9].getName().equals(symbol) && kiangArray[3][8].getname().equals(symbol)) //diagonal from 36-45
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][12].getName().equals(symbol) && kiangArray[1][13].getName().equals(symbol) && kiangArray[2][14].getName().equals(symbol) && kiangArray[3][15].getname().equals(symbol)) //diagonal from 49-64
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][15].getName().equals(symbol) && kiangArray[1][14].getName().equals(symbol) && kiangArray[2][13].getName().equals(symbol) && kiangArray[3][12].getname().equals(symbol)) //diagonal from 52-61
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][0].getName().equals(symbol) && kiangArray[0][4].getName().equals(symbol) && kiangArray[0][8].getName().equals(symbol) && kiangArray[0][12].getname().equals(symbol)) //checks 1st 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][1].getName().equals(symbol) && kiangArray[0][5].getName().equals(symbol) && kiangArray[0][9].getName().equals(symbol) && kiangArray[0][13].getname().equals(symbol)) //checks 2nd 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][2].getName().equals(symbol) && kiangArray[0][6].getName().equals(symbol) && kiangArray[0][10].getName().equals(symbol) && kiangArray[0][14].getname().equals(symbol)) //checks 3rd 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][3].getName().equals(symbol) && kiangArray[0][7].getName().equals(symbol) && kiangArray[0][11].getName().equals(symbol) && kiangArray[0][15].getname().equals(symbol)) //checks 4th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[1][0].getName().equals(symbol) && kiangArray[1][4].getName().equals(symbol) && kiangArray[1][8].getName().equals(symbol) && kiangArray[1][12].getname().equals(symbol)) //checks 5th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[1][1].getName().equals(symbol) && kiangArray[1][5].getName().equals(symbol) && kiangArray[1][9].getName().equals(symbol) && kiangArray[1][13].getname().equals(symbol)) //checks 6th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[1][2].getName().equals(symbol) && kiangArray[1][6].getName().equals(symbol) && kiangArray[1][10].getName().equals(symbol) && kiangArray[1][14].getname().equals(symbol)) //checks 7th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[1][3].getName().equals(symbol) && kiangArray[1][7].getName().equals(symbol) && kiangArray[1][11].getName().equals(symbol) && kiangArray[1][15].getname().equals(symbol)) //checks 8th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[2][0].getName().equals(symbol) && kiangArray[2][4].getName().equals(symbol) && kiangArray[2][8].getName().equals(symbol) && kiangArray[2][12].getname().equals(symbol)) //checks 9th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[2][1].getName().equals(symbol) && kiangArray[2][5].getName().equals(symbol) && kiangArray[2][9].getName().equals(symbol) && kiangArray[2][13].getname().equals(symbol)) //checks 10th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[2][2].getName().equals(symbol) && kiangArray[2][6].getName().equals(symbol) && kiangArray[2][10].getName().equals(symbol) && kiangArray[2][14].getname().equals(symbol)) //checks 11th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[2][3].getName().equals(symbol) && kiangArray[2][7].getName().equals(symbol) && kiangArray[2][11].getName().equals(symbol) && kiangArray[2][15].getname().equals(symbol)) //checks 12th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][0].getName().equals(symbol) && kiangArray[3][4].getName().equals(symbol) && kiangArray[3][8].getName().equals(symbol) && kiangArray[3][12].getname().equals(symbol)) //checks 13th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][1].getName().equals(symbol) && kiangArray[3][5].getName().equals(symbol) && kiangArray[3][9].getName().equals(symbol) && kiangArray[3][13].getname().equals(symbol)) //checks 14th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][2].getName().equals(symbol) && kiangArray[3][6].getName().equals(symbol) && kiangArray[3][10].getName().equals(symbol) && kiangArray[3][14].getname().equals(symbol)) //checks 15th 3d column down
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][3].getName().equals(symbol) && kiangArray[3][7].getName().equals(symbol) && kiangArray[3][11].getName().equals(symbol) && kiangArray[3][15].getname().equals(symbol)) //checks 16th 3d column down
+    {
+      hasWon = true;
+    }
     
+    
+    
+    else if (kiangArray[0][0].getName().equals(symbol) && kiangArray[1][4].getName().equals(symbol) && kiangArray[2][8].getName().equals(symbol) && kiangArray[3][12].getname().equals(symbol)) //checks 1st side diagonal (1-61)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][1].getName().equals(symbol) && kiangArray[1][5].getName().equals(symbol) && kiangArray[2][9].getName().equals(symbol) && kiangArray[3][13].getname().equals(symbol)) //checks 2nd side diagonal (2-62)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][2].getName().equals(symbol) && kiangArray[1][6].getName().equals(symbol) && kiangArray[2][10].getName().equals(symbol) && kiangArray[3][14].getname().equals(symbol)) //checks 3rd side diagonal (3-63)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][3].getName().equals(symbol) && kiangArray[1][7].getName().equals(symbol) && kiangArray[2][11].getName().equals(symbol) && kiangArray[3][15].getname().equals(symbol)) //checks 4th side diagonal (4-64)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][0].getName().equals(symbol) && kiangArray[2][4].getName().equals(symbol) && kiangArray[1][8].getName().equals(symbol) && kiangArray[0][12].getname().equals(symbol)) //checks 1st opposite direction diagional (13-49)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][1].getName().equals(symbol) && kiangArray[2][5].getName().equals(symbol) && kiangArray[1][9].getName().equals(symbol) && kiangArray[0][13].getname().equals(symbol)) //checks 2nd opposite direction diagional (14-50)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][2].getName().equals(symbol) && kiangArray[2][6].getName().equals(symbol) && kiangArray[1][10].getName().equals(symbol) && kiangArray[0][14].getname().equals(symbol)) //checks 3rd opposite direction diagional (15-51)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][3].getName().equals(symbol) && kiangArray[2][7].getName().equals(symbol) && kiangArray[1][11].getName().equals(symbol) && kiangArray[0][15].getname().equals(symbol)) //checks 4th opposite direction diagional (16-52)
+    {
+      hasWon = true;
+    }
+    
+    
+    else if (kiangArray[0][0].getName().equals(symbol) && kiangArray[0][5].getName().equals(symbol) && kiangArray[0][10].getName().equals(symbol) && kiangArray[0][15].getname().equals(symbol)) //checks 1st 3d other diagonal (1-52)
+    {
+      hasWon = true;
+    }
+    
+    else if (kiangArray[1][0].getName().equals(symbol) && kiangArray[1][5].getName().equals(symbol) && kiangArray[1][10].getName().equals(symbol) && kiangArray[1][15].getname().equals(symbol)) //checks 2nd 3d other diagonal (5-56)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[2][0].getName().equals(symbol) && kiangArray[2][5].getName().equals(symbol) && kiangArray[2][10].getName().equals(symbol) && kiangArray[2][15].getname().equals(symbol)) //checks 3rd 3d other diagonal (9-60)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][0].getName().equals(symbol) && kiangArray[3][5].getName().equals(symbol) && kiangArray[3][10].getName().equals(symbol) && kiangArray[3][15].getname().equals(symbol)) //checks 4th 3d other diagonal (13-64)
+    {
+      hasWon = true;
+    }
+    
+    else if (kiangArray[0][3].getName().equals(symbol) && kiangArray[0][6].getName().equals(symbol) && kiangArray[0][9].getName().equals(symbol) && kiangArray[0][12].getname().equals(symbol)) //checks 1st 3d other diagonal (4-49)
+    {
+      hasWon = true;
+    }
+    
+    else if (kiangArray[1][3].getName().equals(symbol) && kiangArray[1][6].getName().equals(symbol) && kiangArray[1][9].getName().equals(symbol) && kiangArray[1][12].getname().equals(symbol)) //checks 2nd 3d other diagonal (8-53)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[2][3].getName().equals(symbol) && kiangArray[2][6].getName().equals(symbol) && kiangArray[2][9].getName().equals(symbol) && kiangArray[2][12].getname().equals(symbol)) //checks 3rd 3d other diagonal (12-57)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[3][3].getName().equals(symbol) && kiangArray[3][6].getName().equals(symbol) && kiangArray[3][9].getName().equals(symbol) && kiangArray[3][12].getname().equals(symbol)) //checks 4th 3d other diagonal (16-61)
+    {
+      hasWon = true;
+    } //72 ways to win?
