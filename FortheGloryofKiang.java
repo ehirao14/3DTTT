@@ -497,3 +497,12 @@ public class FortheGloryofKiang
     {
       hasWon = true;
     } //72 ways to win?
+    else if (kiangArray[0][0].getName().equals(symbol) && kiangArray[1][5].getName().equals(symbol) && kiangArray[2][10].getName().equals(symbol) && kiangArray[3][15].getname().equals(symbol)) //checks the diagonal that spans the length of the cube (1-64)
+    {
+      hasWon = true;
+    }
+    else if (kiangArray[0][3].getName().equals(symbol) && kiangArray[1][6].getName().equals(symbol) && kiangArray[2][9].getName().equals(symbol) && kiangArray[3][12].getname().equals(symbol)) //checks the other diagonal that spans the length of the cube (4-61)
+    {
+      hasWon = true;
+    }
+  }
