@@ -156,7 +156,7 @@ public class FortheGloryofKiang
   {
     while (hasWon == false)
     {
-      System.out.println("Player " + turn + ", enter the number you wish to fill.");
+      System.out.println("Player " + turn + ", enter the number you wish to fill. (1-64)");
       int answer = kb.nextInt();
       String symbol = symbol2;
       if (check(answer) == true)
